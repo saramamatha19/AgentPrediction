@@ -1,0 +1,31 @@
+agent_name,in_dataset,ui_status,ui_category,ui_tags,ui_description
+QAAgent,yes,Active,General,,QA Agent — LLM-as-judge that grades a scraper test/repair attempt against the run's mission (met/partial/reason). No browser at run time.
+ScrapeExecutor,yes,Active,General,,"Scrape Executor — runs a generated, self-contained scraper script (contract v2) against a browser session and returns the extracted case-detail fields or the error. No AI at run time."
+ScrapeGenerator,yes,Active,General,,"Scrape Generator — drives a court website from a case number to the case-detail page, then emits a self-contained, parametrized scraper script (standard contract) that a downstream executor runs blindly at scale."
+SiteAnalyst,yes,Active,General,,"Site Analyst — autonomously probes a court website and produces a site briefing (login, search, blockers, navigation flow, field locations) for a downstream extraction agent."
+ScraperOrchestrator,yes,Active,General,,"Scraper Orchestrator — entry point of the scraper authoring plane. Routes analyst -> generator -> Executor, owns the generate/test/repair loop and error_history, and emits a live orchestration DAG (plan/steps/events). No browser, no LLM."
+BRDGen,yes,Active,General,,Turns meeting transcripts into Excel or Word BRDs
+PACER CC Agent,yes,Active,pacer-case-classifier,Legal; Discovery; Web Scraping; PDF Annotation; Case Classification,Case classification agent for PACER
+Writehand,yes,Active,General,,"Document authoring agent for generating structured documents like BRDs, PRDs, and SRSs from unstructured text and user prompts."
+ScrapeMonitor,yes,Active,General,,"Scrape Monitor — diagnoses a repeatedly-failing court scraper from its errors and failure screenshots, decides whether re-authoring will help (vs. anti-bot/transient), and drives the orchestrator to regenerate the script, returning the fresh script to the caller."
+StarTrack,yes,Active,General,,Tracking Top Talent Across the Universe of Candidates.
+TrainGen,yes,Active,General,,Generates training document from aCT-recorded Output
+ACT Agent,yes,Active,act,Oracle; Oracle Apps; QA & Testing; Test Execution; Browser Automation,Executes recorded UI automation scripts as a test suite and returns an HTML report
+Sparkles,yes,Active,General,,Daily birthday & work-anniversary card bot for Microsoft Teams
+Risk Orchestrator,yes,Active,supply-chain-risk-orchestrator,,Aetherion SDK project for building AI agents and workflows
+JiraDailyProgressReportAgent,yes,Active,General,,Aetherion SDK project for building AI agents and workflows
+DailyPrioritizationAgent,yes,Active,General,,Aetherion agent that prioritizes a Jira dashboard daily and produces a downloadable Word brief
+demo_j_agent,yes,Active,General,,Aetherion SDK project for building AI agents and workflows
+ProfileScanner,no,Active,General,,"Extracts a candidate profile directly from a resume, independent of any job description."
+GitBook,no,Inactive,General,,Aetherion SDK project for building AI agents and workflows
+BreachRadar,no,Active,General,,Enter your email to instantly see every known breach where your data was compromised.
+mail_writter_agent,no,Active,General,,"Turns a rough email draft or notes into a polished, ready-to-send email."
+demo2_agent,no,Active,General,,Aetherion SDK project for building AI agents and workflows
+Srija_agent,no,Active,General,,Aetherion SDK project for building AI agents and workflows
+amith_bot,no,Active,General,,Aetherion SDK project for building AI agents and workflows
+Nodey Chatbot,no,Active,General,,Aetherion SDK project for building AI agents and workflows
+IDR Agent,no,Active,General,,Aetherion SDK project for building AI agents and workflows
+self_rag,no,Inactive,General,,Aetherion SDK project for building AI agents and workflows
+AiNewsDigestEmailAgent,no,Active,General,,Agent workflows for AiNewsDigestEmailAgent.
+MeetingActionSummaryPdfAgent,no,Active,General,,Agent workflows for MeetingActionSummaryPdfAgent.
+PromptToImageGenerator,no,Active,General,,Agent workflows for PromptToImageGenerator.

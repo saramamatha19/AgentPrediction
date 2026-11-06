@@ -1,0 +1,31 @@
+agent_name,include,source,final_description
+QAAgent,yes,ui,QA Agent — LLM-as-judge that grades a scraper test/repair attempt against the run's mission (met/partial/reason). No browser at run time.
+ScrapeExecutor,yes,ui,"Scrape Executor — runs a generated, self-contained scraper script (contract v2) against a browser session and returns the extracted case-detail fields or the error. No AI at run time."
+ScrapeGenerator,yes,ui,"Scrape Generator — drives a court website from a case number to the case-detail page, then emits a self-contained, parametrized scraper script (standard contract) that a downstream executor runs blindly at scale."
+SiteAnalyst,yes,ui,"Site Analyst — autonomously probes a court website and produces a site briefing (login, search, blockers, navigation flow, field locations) for a downstream extraction agent."
+ScraperOrchestrator,yes,ui,"Scraper Orchestrator — entry point of the scraper authoring plane. Routes analyst -> generator -> Executor, owns the generate/test/repair loop and error_history, and emits a live orchestration DAG (plan/steps/events). No browser, no LLM."
+BRDGen,yes,ui,Turns meeting transcripts into Excel or Word BRDs
+PACER CC Agent,yes,dataset,"Case classification agent for PACER. Takes a CSV file of court cases, processes them in batches, scrapes case documents, annotates PDFs and classifies each case (legal discovery)."
+Writehand,yes,ui,"Document authoring agent for generating structured documents like BRDs, PRDs, and SRSs from unstructured text and user prompts."
+ScrapeMonitor,yes,ui,"Scrape Monitor — diagnoses a repeatedly-failing court scraper from its errors and failure screenshots, decides whether re-authoring will help (vs. anti-bot/transient), and drives the orchestrator to regenerate the script, returning the fresh script to the caller."
+StarTrack,yes,dataset,Tracking Top Talent Across the Universe of Candidates. Takes a resume and a job description (PDF/DOCX) and evaluates how well the candidate matches the job.
+TrainGen,yes,ui,Generates training document from aCT-recorded Output
+ACT Agent,yes,ui,Executes recorded UI automation scripts as a test suite and returns an HTML report
+Sparkles,yes,ui,Daily birthday & work-anniversary card bot for Microsoft Teams
+Risk Orchestrator,yes,dataset,"Supply chain risk orchestrator. Consumes Trade Compliance and Supplier Performance reports, enriches with external risk signals, scores/ranks suppliers, and generates guardrail-gated action plans."
+JiraDailyProgressReportAgent,yes,dataset,"Generates a concise, business-readable project insight report: fetches the Jira scope live for a chosen date range, exports every examined ticket to a tracking CSV, compares against the stored baseline snapshot, charts the created-vs-resolved trend, and produces a short Word (.docx) report."
+DailyPrioritizationAgent,yes,ui,Aetherion agent that prioritizes a Jira dashboard daily and produces a downloadable Word brief
+demo_j_agent,no,excluded_useless,
+ProfileScanner,yes,ui,"Extracts a candidate profile directly from a resume, independent of any job description."
+GitBook,yes,ui_trigger_page,"Generates automated UI tests from a codebase: analyzes a frontend GitHub repository, writes Playwright end-to-end tests for it, and pushes them as a new branch to a separate automation/test repository. Inputs: frontend repo URL, automation repo URL, GitHub token."
+BreachRadar,yes,ui,Enter your email to instantly see every known breach where your data was compromised.
+mail_writter_agent,yes,ui,"Turns a rough email draft or notes into a polished, ready-to-send email."
+demo2_agent,no,excluded_useless,
+Srija_agent,no,excluded_useless,
+amith_bot,no,excluded_useless,
+Nodey Chatbot,yes,ui_trigger_page,General-purpose chatbot. The user types any free-form question or query and the chatbot replies with an answer in conversation. No files or special inputs; use only when no specialised agent fits.
+IDR Agent,yes,ui_trigger_page,"Invoice data extraction agent (Intelligent Document Recognition). Upload invoices as PDF or ZIP; a vision model (fine-tuned Qwen3-VL) reads them and extracts the invoice fields. Optionally compares results side-by-side with the base model for accuracy, and can write the extracted invoices to a downloadable CSV report."
+self_rag,no,excluded_useless,
+AiNewsDigestEmailAgent,yes,ui_trigger_page,"Creates and emails a news digest on a chosen topic: finds the latest news for a time range, summarizes the top N stories in a chosen summary style, optionally adds images, and emails it to a recipient or mailing list with a custom subject."
+MeetingActionSummaryPdfAgent,yes,ui_trigger_page,"Turns meeting notes plus meeting details (title, date, attendees) into a summary of the meeting and its action items, delivered as a PDF document."
+PromptToImageGenerator,yes,ui_trigger_page,"Generates an image from a text prompt, with generation options such as style, size or number of images."

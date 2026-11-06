@@ -1,0 +1,21 @@
+# Raw platform exports: contain credentials, configs and personal emails. NEVER commit.
+data/agents_2026*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Models and large outputs
+models/
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+
+learning.md
+plan.md
