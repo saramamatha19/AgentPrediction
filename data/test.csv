@@ -1,0 +1,268 @@
+question,agent
+Help! I need automated testing for our frontend!,GitBook
+Need to extract fields from court site.,ScraperOrchestrator
+Create a daily greeting for birthdays and anniversaries.,Sparkles
+run a fit analysis for the HR associate position,StarTrack
+Can you show me the Jira metrics for this month?,JiraDailyProgressReportAgent
+Gathering news on digital marketing - send me the top 5 stories.,AiNewsDigestEmailAgent
+Can you summarize the qualifications in this resume?,ProfileScanner
+Extract info from this resume.,ProfileScanner
+"Trouble with court scraper, diagnose now?",ScrapeMonitor
+Create a detailed extraction schema for cases please.,ScrapeGenerator
+Need quick execution of test scripts.,ACT Agent
+Can you set up Playwright tests on a separate branch?,GitBook
+Review the extracted info for correctness.,QAAgent
+Help with a scraper for case Johnson vs. County.,ScrapeGenerator
+How do I write an SRS from scratch?,Writehand
+Emails are exposed? Check mine,BreachRadar
+Running tests on Oracle apps is critical.,ACT Agent
+Looking to annotate files from PACER,PACER CC Agent
+Scrap case info for the name listed in the csv.,ScrapeExecutor
+"HR, send birthday wishes now!",Sparkles
+Court URL provided – need help with a coder.,ScrapeGenerator
+Generate a relaxing beach scene,PromptToImageGenerator
+What’s the best way to foster inclusivity?,Nodey Chatbot
+Design a scraper for small claims court.,ScraperOrchestrator
+Can we make this email more concise?,mail_writter_agent
+"Looking to automate scraping court data, please assist.",ScrapeGenerator
+List navigation flow to get to case data.,SiteAnalyst
+Can you create a PRD from these notes?,Writehand
+Can you help with ticket management?,DailyPrioritizationAgent
+Draft an email about the meeting agenda.,mail_writter_agent
+Fix the script for family court scrapping.,ScraperOrchestrator
+Need help with an email to my supervisor.,mail_writter_agent
+"The test suite is ready, please execute it.",ACT Agent
+Can you onboard a new court site?,ScraperOrchestrator
+Need feedback on scraping output quality.,QAAgent
+How do I get data from scanned invoices?,IDR Agent
+I have invoices to be converted into a file.,IDR Agent
+does this experience stack up for the role I’m hiring for?,StarTrack
+Please summarize this meeting in a PDF format.,MeetingActionSummaryPdfAgent
+assess if this engineering resume meets job requirements,StarTrack
+Describe Playwright test generation for my repo.,GitBook
+Can you validate our latest scrape?,QAAgent
+Summarize today's biggest tech stories.,AiNewsDigestEmailAgent
+"Hey, I have a test suite ready. Can you execute it?",ACT Agent
+"I received suspicious emails, check my address",BreachRadar
+I think my personal email is exposed,BreachRadar
+Need clarification on a couple suppliers.,Risk Orchestrator
+Generate an image of an animal in its habitat,PromptToImageGenerator
+"I'm a project manager, need PRD help.",Writehand
+Can you automate happy birthday greetings?,Sparkles
+Please turn my meeting transcript into an Excel BRD.,BRDGen
+Summarize this CV quickly.,ProfileScanner
+"Court site URL: [insert URL], need scraper.",ScraperOrchestrator
+Check for major risk indicators in our suppliers.,Risk Orchestrator
+I have meeting notes; I need a BRD quickly.,BRDGen
+Please give me a structure from this resume.,ProfileScanner
+Can you create a BRD from this meeting transcript?,BRDGen
+Scraper errors seen in screenshots.,ScrapeMonitor
+Check trade compliance for supplier A.,Risk Orchestrator
+"Have a bunch of scanned invoices, need extraction.",IDR Agent
+Highlight the search options available on the site.,SiteAnalyst
+Looking for the riskiest vendors on my list.,Risk Orchestrator
+"Dashboard ID 23456 and last two weeks, please!",JiraDailyProgressReportAgent
+I need a PDF summary of yesterday's meeting.,MeetingActionSummaryPdfAgent
+Login steps for [court name]?,SiteAnalyst
+Share a profile summary from this document.,ProfileScanner
+Could you please execute this scraper ASAP?,ScrapeExecutor
+Can you compile a requirements document for me?,BRDGen
+Can this resume cover the skills needed for a mechanical engineer?,StarTrack
+Generate a psychedelic artwork to inspire creativity,PromptToImageGenerator
+I need a corporate-themed image with people collaborating,PromptToImageGenerator
+Send me a quick status update for project Alpha.,JiraDailyProgressReportAgent
+Looking for help with case classification,PACER CC Agent
+Need a subject line for my email.,mail_writter_agent
+"These specs are incomplete, can you help fill it in?",Writehand
+"I forgot the Jira credentials, can you bypass?",DailyPrioritizationAgent
+Create something for our poster presentation,PromptToImageGenerator
+Data breach check for work email,BreachRadar
+What’s the best way to ask for feedback?,mail_writter_agent
+Could you assess this candidate based on the job posting?,StarTrack
+List today's tasks in order of priority.,DailyPrioritizationAgent
+Can we fix the script as it fails?,ScrapeMonitor
+How can I improve my writing skills?,Nodey Chatbot
+Generate a brief for the next team huddle.,DailyPrioritizationAgent
+What were the main points discussed in the meeting?,MeetingActionSummaryPdfAgent
+Can I see Jira metrics for our last release?,JiraDailyProgressReportAgent
+Could use some help in creating a BRD.,BRDGen
+Looking for BRD based on the team meeting.,BRDGen
+I need to convert this CV into a profile.,ProfileScanner
+I need to see the main points from this CV.,ProfileScanner
+"I'm not sure how to test this project, help generate tests!",GitBook
+Can you turn these notes into a BRD in Excel?,BRDGen
+Please evaluate supplier risk ASAP.,Risk Orchestrator
+"Need e2e tests written for my GitHub project, please!",GitBook
+Can you send an email about upcoming tech events?,AiNewsDigestEmailAgent
+Need help formatting this PRD for stakeholders.,Writehand
+How do I manage supplier risk better?,Risk Orchestrator
+What’s the buzz on social media trends these days?,AiNewsDigestEmailAgent
+How do I organize these requirements?,Writehand
+"I need to validate my scripts, please execute them.",ACT Agent
+whats the general procedure for onboarding new employees?,Nodey Chatbot
+Export type: PDF. Need a detailed manual.,TrainGen
+Need to get my case documents in order,PACER CC Agent
+Send me top stories of the week in the travel industry.,AiNewsDigestEmailAgent
+How do I get a meeting summary with action items?,MeetingActionSummaryPdfAgent
+Are any breaches affecting me?,BreachRadar
+"Frontend engineer here, I need e2e tests created.",GitBook
+Curious about session timeouts on this website.,SiteAnalyst
+"Need to verify after latest changes, run my scripts.",ACT Agent
+What’s the best way to scrape this court site?,ScrapeGenerator
+How can I get a summary of the long meeting?,MeetingActionSummaryPdfAgent
+Email me with the latest on artificial intelligence.,AiNewsDigestEmailAgent
+Pull out certifications from this resume.,ProfileScanner
+I need birthday greetings for employees.,Sparkles
+"Scrape this court case for me, please.",ScrapeExecutor
+Can you help analyze these court documents?,PACER CC Agent
+how to celebrate employee anniversaries?,Sparkles
+Need to share a meeting summary with the team.,MeetingActionSummaryPdfAgent
+Audit my email for breaches,BreachRadar
+"Case info not appearing, need new scraper options.",ScrapeGenerator
+I need projct report for the sprint that just ended.,JiraDailyProgressReportAgent
+Requesting extraction of invoice details.,IDR Agent
+Security check on my email,BreachRadar
+Quickly move those tickets to in-progress status!,DailyPrioritizationAgent
+Extract amounts and dates from invoices.,IDR Agent
+What's the priority list for today?,DailyPrioritizationAgent
+Can you fetch case data now?,ScrapeExecutor
+Can you help me get CSV from these files?,IDR Agent
+I have scanned invoices needing extraction.,IDR Agent
+What are some good negotiation techniques?,Nodey Chatbot
+please provide project report for Jira filter 67890.,JiraDailyProgressReportAgent
+"Dear support, help diagnose my issues.",ScrapeMonitor
+How do I provide case documents for annotation?,PACER CC Agent
+Is there a breach for my email address?,BreachRadar
+Invoice information extraction required.,IDR Agent
+"Issues with scraper, screenshots included.",ScrapeMonitor
+What are the most important qualities of a good leader?,Nodey Chatbot
+"Summarize last week's project meeting, thanks!",MeetingActionSummaryPdfAgent
+Did the scraper meet its extraction mission?,QAAgent
+I need to write a follow-up email.,mail_writter_agent
+Dev team priorities for today.,DailyPrioritizationAgent
+Could you execute the script at scale?,ScrapeExecutor
+I'm thinking about an art piece focusing on innovation,PromptToImageGenerator
+AI Agent: please tell me about scraper accuracy.,QAAgent
+Scraper needed for criminal court website.,ScraperOrchestrator
+"File has 200 cases, need a classification",PACER CC Agent
+Fetch details for litigant: Jane Smith.,ScrapeExecutor
+please analyze this resume with the attached job requirements,StarTrack
+Did extraction fully meet the schema demands?,QAAgent
+Search for odd navigation issues on this site.,SiteAnalyst
+How do I log in to access data?,SiteAnalyst
+"I'm a lawyer, can you assist with case classification?",PACER CC Agent
+Extract public case details from the given URL.,ScrapeGenerator
+I need a downloable Word document summarizing priorities today.,DailyPrioritizationAgent
+Get me the risk report on supplier B.,Risk Orchestrator
+Jira report needed: Baseline comparison for the last quarter.,JiraDailyProgressReportAgent
+Trying to scrape data but getting errors.,ScraperOrchestrator
+"My branding template is ready, just need the manual.",TrainGen
+Could you help with scrapping case details?,ScrapeExecutor
+I want to gather info from one particular court case.,ScraperOrchestrator
+Need invoices read and totaled.,IDR Agent
+Please summarize the key points from the meeting.,MeetingActionSummaryPdfAgent
+"I lost track of who's doing what, need that info.",MeetingActionSummaryPdfAgent
+"Partially met extraction expectations, why?",QAAgent
+How are we sending happy anniversaries?,Sparkles
+"My login test failed, re-run with correct credentials.",ACT Agent
+Request scraper for family law cases.,ScraperOrchestrator
+Need to extract requirements from call notes.,BRDGen
+Last version of scraper is broken.,ScrapeMonitor
+Find out if we can scrape without a login.,SiteAnalyst
+Can you provide HTML report for my automation tests?,ACT Agent
+"I'm a developer, need a PRD for the new feature.",Writehand
+BRD needed from this client conversation.,BRDGen
+Producing daily brief for team?,DailyPrioritizationAgent
+Please create test cases based on the repo I provided.,GitBook
+Quick bday messages needed!,Sparkles
+Need a simple graphic for a flyer,PromptToImageGenerator
+Fetch case info for 56789.,ScrapeExecutor
+What about a vibrant abstract art piece?,PromptToImageGenerator
+Find out if there are any captchas.,SiteAnalyst
+"Turn my last recording into onboarding stuff, okay?",TrainGen
+What are the steps for effective problem-solving?,Nodey Chatbot
+Need batch processing for my legal files,PACER CC Agent
+"Just scraped a website, did it work?",QAAgent
+Court data scraper failing -need help!,ScrapeMonitor
+Email the best stories on smart home technology.,AiNewsDigestEmailAgent
+Need urgent help with today's My Jira backlog.,DailyPrioritizationAgent
+Can you turn my workflow into a professional manual?,TrainGen
+Which suppliers are flagged for risk?,Risk Orchestrator
+Can you create a scraper for a court site?,ScrapeGenerator
+Quick guidance on case number inputs?,SiteAnalyst
+Can you handle 150 case files for review?,PACER CC Agent
+Need a reliable court scraper built.,ScraperOrchestrator
+Are there known breaches with my email?,BreachRadar
+Could you help me document the business requirements?,BRDGen
+Find the key skills listed in this applicant’s CV.,ProfileScanner
+Greetings for this month’s birthdays!,Sparkles
+How do I turn my recorded workflow into onboarding material?,TrainGen
+Urgent: need info on potential captchas.,SiteAnalyst
+please ensure this resume meets all job criteria,StarTrack
+"Expecting met results, but unsure after look.",QAAgent
+"Scraper script needs repair, errors here.",ScrapeMonitor
+Create a step-by-step user guide from recording 44678.,TrainGen
+"Run date is today, risk assessment needed.",Risk Orchestrator
+"I saw the old script broke, can I get a new one?",ScrapeGenerator
+Can you give me a project progress report for the last month?,JiraDailyProgressReportAgent
+Can you give me a scalable scraper for lawsuits?,ScrapeGenerator
+Compile a list of the latest sports headlines.,AiNewsDigestEmailAgent
+Need help processing multiple invoices.,IDR Agent
+"Training materials for ACT recording, please!",TrainGen
+Batch scrape required for CSV of cases!,ScrapeExecutor
+I need a structured view of this resume.,ProfileScanner
+Is there a way to automate testing using Playwright?,GitBook
+Visual of a tech startup environment,PromptToImageGenerator
+send happy work anniversary notes,Sparkles
+What’s our opened vs closed tickets for the past 30 days?,JiraDailyProgressReportAgent
+Need an email for a colleague transition.,mail_writter_agent
+I need a match report for this job and candidate,StarTrack
+urgent: help with an email to client,mail_writter_agent
+"Diagnosing extraction errors, need insights!",ScrapeMonitor
+Can you create a futuristic cityscape?,PromptToImageGenerator
+I need the outcomes from our last meeting written down.,MeetingActionSummaryPdfAgent
+Need help fixing a scraper for a court site.,ScraperOrchestrator
+Email a summary on telecommuting news.,AiNewsDigestEmailAgent
+Discover navigation steps to access case filings.,SiteAnalyst
+Summarize the agenda and outcomes from today’s meeting.,MeetingActionSummaryPdfAgent
+Risk report needed for vendor G.,Risk Orchestrator
+Please add detail to this PRD.,Writehand
+compare the candidate's skills with the job description provided,StarTrack
+"Urgent!!! Need tests for my code, can you automate this?",GitBook
+Scraper issues growing; I’m confused.,ScrapeMonitor
+"I'm a paralegal, can you classify cases for me?",PACER CC Agent
+Needs to be screened for fit to the business analyst position,StarTrack
+Please create all necessary Playwright tests for my repo.,GitBook
+I want to send an introduction email.,mail_writter_agent
+"this resume looks good, but how does it fit the needs?",StarTrack
+Use the provided scraper script for these case numbers.,ScrapeExecutor
+Need help with a training guide using ACT test ID.,TrainGen
+Need result for complex list of cases.,ScrapeExecutor
+Short on time: I need a quick how-to document from my test.,TrainGen
+how to get bday messages sent?,Sparkles
+Prioritize backlog items for dev team.,DailyPrioritizationAgent
+Show me a summary of this applicant's skills.,ProfileScanner
+writer needed for product specs,Writehand
+What's the importance of feedback?,Nodey Chatbot
+"Last week’s technology news summary, please.",AiNewsDigestEmailAgent
+How can I tell if my email was leaked?,BreachRadar
+i need a summary of project management best practices,Nodey Chatbot
+Can you turn these requirements into a structured document?,Writehand
+Test execution needed for some UI checks.,ACT Agent
+Explain the basics of search engine optimization.,Nodey Chatbot
+Quality check requested for extracted results.,QAAgent
+Provide a simple progress report for the website project.,JiraDailyProgressReportAgent
+How to execute the test scripts?,ACT Agent
+Help me organize my case documents,PACER CC Agent
+"I recorded a process; need a user guide, ASAP.",TrainGen
+Help! Scraper failing badly.,ScrapeMonitor
+"Hi, can you help me evaluate supplier risk?",Risk Orchestrator
+ANALYST: evaluate scraped data accuracy.,QAAgent
+What's the best way to improve team communication?,Nodey Chatbot
+"Create report for Jira filter ID 98765, pls.",JiraDailyProgressReportAgent
+Can you create a new branch with Playwright tests for me?,GitBook
+Please compile these requirements into a proper format.,Writehand
+Need a more robust scraper for judicial info.,ScrapeGenerator
+I need a split image of day and night,PromptToImageGenerator
+Help me with a thank you email.,mail_writter_agent
+Can u run UI tests for Oracle now?,ACT Agent
